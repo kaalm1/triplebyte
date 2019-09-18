@@ -1,12 +1,14 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
+import { Container } from 'semantic-ui-react'
+import Menu from './Menu'
 
 const Page2 = (props) => {
   return(
-    <div>
-
-    </div>
+    <Container>
+      <Menu {...props}/>
+    </Container>
   )
 }
 
